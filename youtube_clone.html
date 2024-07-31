@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="/thumbnail/log-yt.png" type="image/png"> 
+    <link rel="stylesheet" href="style/general.css">
+    <link rel="stylesheet" href="style/head.css">
+    <link rel="stylesheet" href="style/midle.css">
+    <link rel="stylesheet" href="style/sidebar.css">
+  </head>
+  <body>
+    <header>
+    <div class="head-flex">
+      <div class="icon-headleft">
+        <img class="hamburger" src="thumbnail/hamburger-menu.svg" >
+        <a href=""><img class="youtube-logo" src="thumbnail/youtube-logo.svg" ></a>
+    </div>
+
+    <div class="search-content">
+        <input class="search-box" type="textbox" placeholder="Search" >
+        <button class="search-button">
+          <img class="search-image" src="thumbnail/search.svg" alt="">
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-button">
+          <img class="voice-icon" src="thumbnail/voice-search-icon.svg" alt="">
+          <div class="tooltip">Search with your voice</div>
+        </button>
+    </div>
+
+      <div class="icon-headright" >
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="thumbnail/upload.svg" alt="">
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="youtube-app-container">
+          <img class="youtube-app" src="thumbnail/youtube-apps.svg" alt="">
+          <div class="tooltip">YouTube apps</div>
+        </div>
+        
+        <div class="notify">
+          <img class="notification-icon" src="thumbnail/notifications.svg" alt="">
+          <div class="tooltip">Notifications</div>
+          <div class="number-notify">8</div>
+        </div>
+        <img class="mychannel" src="thumbnail/mychannel_profile.jpg" alt="">
+      </div>
+    </div>
+  </header>
+
+    <nav class="side-bar">
+      <section class="option">
+      <div class="sidebar-icon">
+        <img src="thumbnail/home.svg" >
+        <div class="title-icon">Home</div>
+      </div>
+      <div class="sidebar-icon">
+        <img src="thumbnail/explore.svg" >
+        <div class="title-icon">Explore</div>
+      </div>
+      <div class="sidebar-icon">
+        <img src="thumbnail/subscriptions.svg" >
+        <div class="title-icon">Subscriptions</div>
+      </div>
+      <div class="sidebar-icon">
+        <img src="thumbnail/originals.svg" >
+        <div class="title-icon">Originals</div>
+      </div>
+      <div class="sidebar-icon">
+        <img src="thumbnail/youtube-music.svg" >
+        <div class="title-icon">YouTube Music</div>
+      </div>
+      <div class="sidebar-icon">
+        <img src="thumbnail/library.svg" >
+        <div class="title-icon">Library</div>
+      </div>
+    </section>
+      <hr>
+      <section class="option_guide">
+        <div class="title_option_guide">
+          <p>Bạn</p>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 Chevron_Right">
+            <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+          </svg>
+        </div>
+        <div class="info_guide">
+
+          <svg xmlns="http://www.w3.org/2000/svg"  fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 icon_guide_info">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 9h3.75M15 12h3.75M15 15h3.75M4.5 19.5h15a2.25 2.25 0 0 0 2.25-2.25V6.75A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25v10.5A2.25 2.25 0 0 0 4.5 19.5Zm6-10.125a1.875 1.875 0 1 1-3.75 0 1.875 1.875 0 0 1 3.75 0Zm1.294 6.336a6.721 6.721 0 0 1-3.17.789 6.721 6.721 0 0 1-3.168-.789 3.376 3.376 0 0 1 6.338 0Z" />
+          </svg>
+          <p>Kênh của bạn</p>          
+        </div>
+        <div class="info_guide">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 icon_guide_info">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+          </svg>
+          <p>Video đã xem</p>          
+        </div>
+        <div class="info_guide">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 icon_guide_info">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 6.75h12M8.25 12h12m-12 5.25h12M3.75 6.75h.007v.008H3.75V6.75Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0ZM3.75 12h.007v.008H3.75V12Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm-.375 5.25h.007v.008H3.75v-.008Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+          </svg>
+          <p>Danh sách phát</p>          
+        </div>
+        <div class="info_guide">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 icon_guide_info">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6.633 10.25c.806 0 1.533-.446 2.031-1.08a9.041 9.041 0 0 1 2.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 0 0 .322-1.672V2.75a.75.75 0 0 1 .75-.75 2.25 2.25 0 0 1 2.25 2.25c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282m0 0h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 0 1-2.649 7.521c-.388.482-.987.729-1.605.729H13.48c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 0 0-1.423-.23H5.904m10.598-9.75H14.25M5.904 18.5c.083.205.173.405.27.602.197.4-.078.898-.523.898h-.908c-.889 0-1.713-.518-1.972-1.368a12 12 0 0 1-.521-3.507c0-1.553.295-3.036.831-4.398C3.387 9.953 4.167 9.5 5 9.5h1.053c.472 0 .745.556.5.96a8.958 8.958 0 0 0-1.302 4.665c0 1.194.232 2.333.654 3.375Z" />
+          </svg>
+          <p>Video đã thích</p>          
+        </div>
+      </section>
+    </nav>
+    
+    <main>
+    <section class="video-grid">
+      <div class="form">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=nnOvQE4EG2U&list=RDnnOvQE4EG2U&start_radio=1">
+            <img class="thumbnail" src="thumbnail/thumbnail-8.webp" >
+          </a> 
+          <div class="video-time">5:25</div>
+        </div>
+        <div class="belowvideo-grid"> 
+        <div class="avatar">
+            <img class="avatar-picture" src="thumbnail/channel_Lyrics.jpg" >
+        </div> 
+        <div class="title-video">
+          <p class="font-title">
+            Khi Phải Quên Đi - Phan Mạnh Quỳnh (Lyrics Lossless)
+          </p> 
+          <p class="font-author">Lyrics</p>
+          <p class="font-view">4,5M views &#183; 6 years ago </p>
+        </div> 
+      </div>
+      </div>
+
+      <div class="form">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=GpmOn4RyzZI">
+            <img class="thumbnail" src="thumbnail/thumbnail-9.webp" >
+          </a> 
+          <div class="video-time">3:02</div>
+        </div>
+        <div class="belowvideo-grid"> 
+        <div class="avatar">
+          <img class="avatar-picture" src="thumbnail/channe_TDT.jpg" >
+        </div> 
+        <div class="title-video">
+          <p class="font-title">
+            Cắt Đôi Nỗi Sầu
+          </p> 
+          <p class="font-author">Tăng Duy Tân</p>
+          <p class="font-view">1,3M views &#183; 13 day ago </p>
+        </div> 
+      </div>
+      </div>
+
+
+      <div class="form">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+            <img class="thumbnail" src="thumbnail/thumbnail-1.webp">
+          </a>
+          <div class="video-time">14:20</div> 
+        </div>
+        <div class="belowvideo-grid">
+          <div class="avatar">
+            <img class="avatar-picture" src="thumbnail/channel-1.jpeg" >
+          </div> 
+          <div class="title-video">
+            <p class="font-title">
+              Talking Tech and AI with Google CEO Sundar Pichai!
+            </p> 
+            <p class="font-author">Marques Brownlee</p>
+            <p class="font-view">3.4M views &#183; 6 months ago </p>
+          </div> 
+        </div>
+      </div> 
+
+        <div class="form">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+              <img class="thumbnail" src="thumbnail/thumbnail-2.webp" >
+            </a> 
+            <div class="video-time">8:22</div>
+          </div>
+          <div class="belowvideo-grid"> 
+          <div class="avatar">
+            <img class="avatar-picture" src="thumbnail/channel-2.jpeg" >
+          </div> 
+          <div class="title-video">
+            <p class="font-title">
+              Try Not To Laugh Challenge #9
+            </p> 
+            <p class="font-author">Markiplier</p>
+            <p class="font-view">19M views &#183; 4 years ago </p>
+          </div> 
+        </div>
+        </div>
+
+        <div class="form">
+          <div class="thumbnail-row" >
+            <img class="thumbnail" src="thumbnail/thumbnail-3.webp">
+            <div class="video-time">9:13</div>
+          </div>
+          <div class="belowvideo-grid">
+            <div class="avatar">
+              <img class="avatar-picture" src="thumbnail/channel-3.jpeg" >
+            </div> 
+            <div class="title-video">
+              <p class="font-title">
+                Crazy Tik Toks Taken Moments Before DISASTER
+              </p> 
+              <p class="font-author">SSSniperWolf</p>
+              <p class="font-view">12M views &#183; 1 year ago </p>
+            </div> 
+          </div>
+        </div> 
+
+        <div class="form">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnail/thumbnail-4.webp">
+            <div class="video-time">22:09</div>
+          </div>
+          <div class="belowvideo-grid">
+            <div class="avatar">
+              <img class="avatar-picture" src="thumbnail/channel-4.jpeg" >
+            </div> 
+            <div class="title-video">
+              <p class="font-title">
+                The Simplest Math Problem No One Can Solve - Collatz Conjecture
+              </p> 
+              <p class="font-author">Veritasium</p>
+              <p class="font-view">18M views &#183; 4 months ago </p>
+            </div> 
+          </div>
+        </div> 
+  
+          <div class="form">
+            <div class="thumbnail-row">
+              <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+                <img class="thumbnail" src="thumbnail/thumbnail-5.webp" >
+              </a> 
+              <div class="video-time">11:17</div>
+            </div>
+            <div class="belowvideo-grid"> 
+            <div class="avatar">
+              <img class="avatar-picture" src="thumbnail/channel-5.jpeg" >
+            </div> 
+            <div class="title-video">
+              <p class="font-title">
+                Kadane's Algorithm to Maximum Sum Subarray Problem
+              </p> 
+              <p class="font-author">MCS Dojo</p>
+              <p class="font-view">519K views &#183; 5 years ago </p>
+            </div> 
+          </div>
+          </div>
+  
+          <div class="form">
+            <div class="thumbnail-row">
+              <a href="https://www.youtube.com/watch?v=yXWw0_UfSFg">
+                <img class="thumbnail" src="thumbnail/thumbnail-6.webp">
+              </a>
+              <div class="video-time">19:59</div>
+            </div>
+            <div class="belowvideo-grid">
+              <div class="avatar">
+                <img class="avatar-picture" src="thumbnail/channel-6.jpeg" >
+              </div> 
+              <div class="title-video">
+                <p class="font-title">
+                  Anything You Can Fit In The Circle I'll Pay For
+                </p> 
+                <p class="font-author">MrBeast</p>
+                <p class="font-view">141M views &#183; 1 year ago </p>
+              </div> 
+            </div>
+          </div> 
+
+          
+         
+          <div class="form">
+            <div class="thumbnail-row">
+              <a href="https://www.youtube.com/watch?v=GpmOn4RyzZI">
+                <img class="thumbnail" src="thumbnail/thumbnail-9.webp" >
+              </a> 
+              <div class="video-time">3:02</div>
+            </div>
+            <div class="belowvideo-grid"> 
+            <div class="avatar">
+              <img class="avatar-picture" src="thumbnail/channe_TDT.jpg" >
+            </div> 
+            <div class="title-video">
+              <p class="font-title">
+                Cắt Đôi Nỗi Sầu
+              </p> 
+              <p class="font-author">Tăng Duy Tân</p>
+              <p class="font-view">1,3M views &#183; 13 day ago </p>
+            </div> 
+          </div>
+          </div>
+          
+          <div class="form">
+            <div class="thumbnail-row">
+              <a href="https://www.youtube.com/watch?v=GpmOn4RyzZI">
+                <img class="thumbnail" src="thumbnail/thumbnail-9.webp" >
+              </a> 
+              <div class="video-time">3:02</div>
+            </div>
+            <div class="belowvideo-grid"> 
+            <div class="avatar">
+              <img class="avatar-picture" src="thumbnail/channe_TDT.jpg" >
+            </div> 
+            <div class="title-video">
+              <p class="font-title">
+                Cắt Đôi Nỗi Sầu
+              </p> 
+              <p class="font-author">Tăng Duy Tân</p>
+              <p class="font-view">1,3M views &#183; 13 day ago </p>
+            </div> 
+          </div>
+          </div>
+
+          <div class="form">
+            <div class="thumbnail-row">
+              <a href="https://www.youtube.com/watch?v=GpmOn4RyzZI">
+                <img class="thumbnail" src="thumbnail/thumbnail-9.webp" >
+              </a> 
+              <div class="video-time">3:02</div>
+            </div>
+            <div class="belowvideo-grid"> 
+            <div class="avatar">
+              <img class="avatar-picture" src="thumbnail/channe_TDT.jpg" >
+            </div> 
+            <div class="title-video">
+              <p class="font-title">
+                Cắt Đôi Nỗi Sầu
+              </p> 
+              <p class="font-author">Tăng Duy Tân</p>
+              <p class="font-view">1,3M views &#183; 13 day ago </p>
+            </div> 
+          </div>
+          </div>
+
+          
+          <div class="form">
+            <div class="thumbnail-row">
+              <a href="https://www.youtube.com/watch?v=GpmOn4RyzZI">
+                <img class="thumbnail" src="thumbnail/thumbnail-9.webp" >
+              </a> 
+              <div class="video-time">3:02</div>
+            </div>
+            <div class="belowvideo-grid"> 
+            <div class="avatar">
+              <img class="avatar-picture" src="thumbnail/channe_TDT.jpg" >
+            </div> 
+            <div class="title-video">
+              <p class="font-title">
+                Cắt Đôi Nỗi Sầu
+              </p> 
+              <p class="font-author">Tăng Duy Tân</p>
+              <p class="font-view">1,3M views &#183; 13 day ago </p>
+            </div> 
+          </div>
+          </div>
+      </section>
+  </main>
+  </body>
+</html>

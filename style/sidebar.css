@@ -1,0 +1,61 @@
+.side-bar{
+  position: fixed;
+  top: 55px;
+  bottom: 0;
+  left: 0;
+  width: 160px;
+  background-color: rgb(250, 250, 250);
+  padding-top: 5px;
+  z-index: 200;
+}
+.sidebar-icon{
+  height: 74px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.sidebar-icon:hover ,.info_guide:hover , .title_option_guide:hover{
+  background-color: rgb(230, 230, 230);
+  cursor: pointer;
+}
+.sidebar-icon img {
+  height: 24px;
+  margin-bottom: 4px;
+}
+.sidebar-icon div{
+  font-size: 12px;
+}
+.icon_guide_info{
+  width:24px;
+  
+}
+.info_guide{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  gap:18px;
+  font-size: 12px;
+  height: 30px;
+}
+
+.option_guide{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+}
+.title_option_guide{
+  padding-left: 22px;
+  font-weight: 500;
+  display:flex;
+  justify-content:left;
+  align-items: center;
+  width:85%;
+}
+.Chevron_Right{
+  width:15px;
+  margin-left: 10px;
+  height: 30px;
+
+}
